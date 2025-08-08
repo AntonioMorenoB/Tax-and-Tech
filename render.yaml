@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tax-and-tech-am
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
